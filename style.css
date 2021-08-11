@@ -1,0 +1,21 @@
+@font-face {
+    font-family: raleway;
+    src: url(raleway/Raleway-Black.ttf);
+    src: url(raleway/Raleway-BlackItalic.ttf);
+    src: url(raleway/Raleway-Bold.ttf);
+    src: url(raleway/Raleway-BoldItalic.ttf);
+    src: url(raleway/Raleway-ExtraBold.ttf);
+    src: url(raleway/Raleway-ExtraBoldItalic.ttf);
+    src: url(raleway/Raleway-ExtraLight.ttf);
+    src: url(raleway/Raleway-ExtraLightItalic.ttf);
+    src: url(raleway/Raleway-Italic.ttf);
+    src: url(raleway/Raleway-Light.ttf);
+    src: url(raleway/Raleway-LightItalic.ttf);
+    src: url(raleway/Raleway-Medium.ttf);
+    src: url(raleway/Raleway-MediumItalic.ttf);
+    src: url(raleway/Raleway-Regular.ttf);
+    src: url(raleway/Raleway-SemiBold.ttf);
+    src: url(raleway/Raleway-SemiBoldItalic.ttf);
+    src: url(raleway/Raleway-Thin.ttf);
+    src: url(raleway/Raleway-ThinItalic.ttf);
+}
