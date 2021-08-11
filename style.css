@@ -5,6 +5,9 @@
 #bloc_page
 {
     font-family: raleway;
+    max-width: 1024px;
+    font-size: 1em;
+    margin: auto;
 }
 /* header */
 
