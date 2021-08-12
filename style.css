@@ -10,6 +10,31 @@
     margin: auto;
 }
 /* header */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+header li
+{
+    margin-left: 55px;
+}
+
+header li a
+{
+    text-decoration: none;
+}
+
 
 /* nav */
 
