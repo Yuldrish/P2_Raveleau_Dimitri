@@ -1,6 +1,6 @@
 @font-face {
     font-family: raleway;
-    src: url(raleway/Raleway-VariableFont_wght.ttf);
+    src: url(raleway/static/Raleway-Regular.ttf);
 }
 #bloc_page
 {
@@ -14,27 +14,49 @@ header
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    height: 40px;
+}
+
+header > * 
+{
+    height: 100%;
 }
 
 header ul
 {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    align-self: flex-end;
+    column-gap: 55px;
 }
 
-header li
+header li 
 {
-    margin-left: 55px;
+    display: flex;
+    align-items: flex-end;
 }
 
-header li a
+header li:hover
+{
+    border-top: #0065fc solid 2px;
+}
+
+header a
 {
     text-decoration: none;
+    color: black;
 }
 
+header a:hover
+{
+    color: #0065fc;
+}
+
+#inscription
+{
+    color: #0065fc;
+    font-weight: bold;
+}
 
 /* nav */
 
