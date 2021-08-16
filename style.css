@@ -8,7 +8,8 @@
     max-width: 1440px;
     font-size: 1em;
     margin: auto;
-    padding: 50px;
+    /* cadre provisoir */
+    border: solid 3px black;
 }
 
 /* header */
@@ -17,8 +18,8 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
-    padding: 0px 50px 0px 50px;
+    height: 90px;
+    padding: 0px 60px 0px 50px;
 }
 
 header > * 
@@ -26,11 +27,18 @@ header > *
     height: 100%;
 }
 
+#logo_reservia
+{
+    display: flex;
+    align-items: flex-end;
+}
+
 header ul
 {
     list-style-type: none;
     display: flex;
     column-gap: 65px;
+    padding-bottom: 20px;
 }
 
 header li 
@@ -41,7 +49,7 @@ header li
 
 header li:hover
 {
-    border-top: #0065fc solid 2px;
+    border-top: #0065fc solid 5px;
 }
 
 header a
@@ -65,12 +73,12 @@ header a:hover
 
 nav
 {
-    padding: 30px 50px 0px 50px;
+    padding: 20px 50px 0px 50px;
 }
 nav h1
 {
     font-weight: bold;
-    display: flex;
+    font-size: 22px;
 }
 
 #barre_recherche
@@ -138,12 +146,13 @@ nav h1
 
 .esp > *
 {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 17px;
+    padding-left: 17px;
 }
 
 .esp i
 {
+    font-size: 18;
     color: #0065fc;
     background-color: #deebff;
     border-radius: 100px/100px;
@@ -202,7 +211,15 @@ nav h1
 
 .etoile
 {
+    color: #f2f2f2;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.etoile_pleine
+{
     color: #0065fc;
+    letter-spacing: -0.12em;
 }
 
 a
@@ -216,16 +233,24 @@ a
 {
     background-color: #f2f2f2;
     border-radius: 10px 10px;
-    width: 880px;
-    height: 630px;
-    padding: 40px;
+    width: 820px;
+    height: 610px;
+    padding: 20px 30px;
+    margin: 30px 0px 0px 50px;
+}
+
+#hebergements h1
+{
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-left: 15px;
 }
 
 #sous_section
 {
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -237,7 +262,9 @@ a
     height: 200px;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0px;
+    margin: 20px 0px 20px 15px;
+    line-height: 0.5em;
+    box-shadow: 0px 0px 10px #c4c4c4;
 }
 
 .def_heb img
@@ -248,12 +275,33 @@ a
     margin: 5px 5px 0px 5px ;
 }
 
-.def_heb h2
+.info_heb
 {
-    font-size: 17px;
-    font-weight: bold;
     margin-left: 15px;
+    line-height: 0.4em;
+}
+
+.info_heb h2
+{
+    font-size: 1em;
+    font-weight: bold;
     color: black;
+}
+
+.info_heb p
+{
+    font-size: 0.85em;
+}
+
+.info_heb i
+{
+    font-size: 0.75em;
+}
+
+#afficher_plus
+{
+    color: black;
+    font-weight: bold;
 }
 
 /* section: populaire */
