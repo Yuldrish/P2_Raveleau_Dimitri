@@ -5,10 +5,12 @@
 #bloc_page
 {
     font-family: raleway;
-    max-width: 1200px;
+    max-width: 1440px;
     font-size: 1em;
     margin: auto;
+    padding: 50px;
 }
+
 /* header */
 header
 {
@@ -16,6 +18,7 @@ header
     justify-content: space-between;
     align-items: center;
     height: 40px;
+    padding: 0px 50px 0px 50px;
 }
 
 header > * 
@@ -27,7 +30,7 @@ header ul
 {
     list-style-type: none;
     display: flex;
-    column-gap: 55px;
+    column-gap: 65px;
 }
 
 header li 
@@ -60,6 +63,10 @@ header a:hover
 
 /* nav */
 
+nav
+{
+    padding: 30px 50px 0px 50px;
+}
 nav h1
 {
     font-weight: bold;
@@ -193,7 +200,61 @@ nav h1
 
 /* main */
 
+.etoile
+{
+    color: #0065fc;
+}
+
+a
+{
+    text-decoration: none;
+}
+
 /* section: hébergements */
+
+#hebergements
+{
+    background-color: #f2f2f2;
+    border-radius: 10px 10px;
+    width: 880px;
+    height: 630px;
+    padding: 40px;
+}
+
+#sous_section
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.def_heb
+{
+    background-color: white;
+    border-radius: 10px 10px;
+    width: 245px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.def_heb img
+{
+    width: 235px;
+    height: 114px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 5px 5px 0px 5px ;
+}
+
+.def_heb h2
+{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 15px;
+    color: black;
+}
 
 /* section: populaire */
 
