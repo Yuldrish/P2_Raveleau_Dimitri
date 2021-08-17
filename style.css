@@ -222,9 +222,10 @@ nav h1
     letter-spacing: -0.12em;
 }
 
-a
+a, p
 {
     text-decoration: none;
+    color: black;
 }
 
 #hebergements_et_populaire
@@ -331,8 +332,15 @@ a
 
 .titre_pop
 {
-    color: rgb(89, 0, 255);
-    margin: 25px 40px 0px 40px;
+    margin: 20px 40px 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.titre_pop i
+{
+    font-size: 1.5em;
 }
 
 .def_pop
@@ -352,7 +360,7 @@ a
     background-position-x: center;
     background-position-y: center;
     border-radius: 10px 0px 0px 10px;
-    margin: 5px 0px 5px 5px;
+    margin: 5px 15px 5px 5px;
     float: left;
 }
 
@@ -363,12 +371,12 @@ a
 
 .info_pop
 {
-    margin-left: px;
+    margin-top: 15px;
 }
 
 .info_pop h2
 {
-    font-size: 1em;
+    font-size: 1.05em;
     font-weight: bold;
     color: black;
 }
@@ -382,8 +390,6 @@ a
 {
     font-size: 0.75em;
 }
-
-
 
 /* section: activités */
 
