@@ -273,12 +273,20 @@ a
     box-shadow: 0px 0px 10px #c4c4c4;
 }
 
-.def_heb img
+.image_heb
 {
     width: 235px;
     height: 114px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     border-radius: 10px 10px 0px 0px;
     margin: 5px 5px 0px 5px ;
+}
+
+.image_heb img
+{
+    display: none;
 }
 
 .info_heb
@@ -316,7 +324,7 @@ a
 {
     background-color: #f2f2f2;
     border-radius: 10px 10px;
-    width: 425px;
+    width: 420px;
     height: 650px;
     margin: 30px 50px 0px 0px;
 }
@@ -324,11 +332,8 @@ a
 .titre_pop
 {
     color: rgb(89, 0, 255);
-
     margin: 25px 40px 0px 40px;
 }
-
-.titre
 
 .def_pop
 {
@@ -344,6 +349,8 @@ a
     width: 125px;
     height: 135px;
     background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     border-radius: 10px 0px 0px 10px;
     margin: 5px 0px 5px 5px;
     float: left;
