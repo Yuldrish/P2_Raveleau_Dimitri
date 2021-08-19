@@ -8,8 +8,7 @@
     max-width: 1440px;
     font-size: 1em;
     margin: auto;
-    /* cadre provisoir */
-    border: solid 3px black;
+    margin-bottom: -10px;
 }
 
 /* header */
@@ -49,7 +48,7 @@ header li
 
 header li:hover
 {
-    border-top: #0065fc solid 5px;
+    border-top: #0065fc solid 3px;
 }
 
 header a
@@ -495,3 +494,20 @@ a, p
 }
 
 /* footer */
+
+footer
+{
+    background-color: #f2f2f2;
+    padding: 35px 60px;
+    display: flex;
+    column-gap: 7.5em;
+    margin: 0px -10px 0px -10px;
+}
+
+footer ul
+{
+    list-style-type: none;
+    margin-left: -40px;
+    line-height: 2em;
+}
+
