@@ -70,6 +70,11 @@ header a
     font-weight: bold;
 }
 
+@media screen and (max-width: 1024px) 
+{
+    
+}
+
 /* nav */
 
 nav
@@ -143,7 +148,7 @@ margin-bottom: -0.1em;
 #filtre
 {
     display: flex;
-    column-gap: 30px;
+    column-gap: 2.5%;
     height: 42px;
     font-size: 17px;
 }
@@ -209,6 +214,11 @@ margin-bottom: -0.1em;
     width: 20px;
 }
 
+@media screen and (max-width: 1024px) 
+{
+    
+}
+
 /* main */
 
 .etoile
@@ -234,6 +244,21 @@ a, p
 {
     display: flex;
     justify-content: space-between;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1427px)
+{
+    #hebergements_et_populaire
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1024px) 
+{
+    
 }
 
 /* section: hébergements */
@@ -262,6 +287,7 @@ a, p
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 20px;
+    max-height: 480px;
 }
 
 .def_heb
@@ -321,6 +347,28 @@ a, p
     color: black;
     font-weight: bold;
     padding-left: 20px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1427px)
+{
+    #hebergements
+    {
+        width: 90%;
+        height: 820px;
+    }
+
+    .def_heb
+    {
+        width: 45%;
+        padding: initial;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1024px) 
+{
+    
 }
 
 /* section: populaire */
@@ -397,6 +445,39 @@ a, p
 {
     font-size: 0.75em;
 
+}
+
+@media all and (min-width: 1024px) and (max-width: 1427px) 
+{
+    #populaire
+    {
+        margin: 20px 50px 0px 50px;
+        width: 94.3%;
+        height: 280px;
+    }
+
+    #sous_section_pop
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 2.5% 0px 3%;
+    }
+    .def_pop
+    {
+        min-width: 310px;
+        margin: 0px;
+    }
+
+    .info_pop
+    {
+        padding: initial;
+    }
+}
+
+@media screen and (max-width: 1024px) 
+{
+    
 }
 
 /* section: activités */
@@ -506,6 +587,16 @@ a, p
     height: 35px;
 }
 
+@media all and (min-width: 1024px) and (max-width: 1427px) 
+{
+    
+}
+
+@media screen and (max-width: 1024px) 
+{
+    
+}
+
 /* footer */
 
 footer
@@ -522,6 +613,14 @@ footer ul
 {
     list-style-type: none;
     margin-left: -40px;
-    line-height: 2em;
 }
 
+footer li
+{
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1024px) 
+{
+    
+}
