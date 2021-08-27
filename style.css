@@ -70,11 +70,6 @@ header a
     font-weight: bold;
 }
 
-@media screen and (max-width: 1024px) 
-{
-    
-}
-
 /* nav */
 
 nav
@@ -214,11 +209,6 @@ margin-bottom: -0.1em;
     width: 20px;
 }
 
-@media screen and (max-width: 1024px) 
-{
-    
-}
-
 /* main */
 
 .etoile
@@ -246,21 +236,6 @@ a, p
     justify-content: space-between;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1427px)
-{
-    #hebergements_et_populaire
-    {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 1024px) 
-{
-    
-}
-
 /* section: hébergements */
 
 #hebergements
@@ -268,9 +243,10 @@ a, p
     background-color: #f2f2f2;
     border-radius: 20px 20px;
     width: 820px;
-    height: 610px;
     padding: 20px 30px;
     margin: 30px 40px 0px 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 #hebergements h1
@@ -349,28 +325,6 @@ a, p
     padding-left: 20px;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1427px)
-{
-    #hebergements
-    {
-        width: 90%;
-        height: 820px;
-    }
-
-    .def_heb
-    {
-        width: 45%;
-        padding: initial;
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-@media screen and (max-width: 1024px) 
-{
-    
-}
-
 /* section: populaire */
 
 #populaire
@@ -447,39 +401,6 @@ a, p
 
 }
 
-@media all and (min-width: 1024px) and (max-width: 1427px) 
-{
-    #populaire
-    {
-        margin: 20px 50px 0px 50px;
-        width: 94.3%;
-        height: 280px;
-    }
-
-    #sous_section_pop
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0px 2.5% 0px 3%;
-    }
-    .def_pop
-    {
-        min-width: 310px;
-        margin: 0px;
-    }
-
-    .info_pop
-    {
-        padding: initial;
-    }
-}
-
-@media screen and (max-width: 1024px) 
-{
-    
-}
-
 /* section: activités */
 
 #activites h1
@@ -490,6 +411,7 @@ a, p
 #activiter_placement
 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 0px  30px;
 }
@@ -587,16 +509,6 @@ a, p
     height: 35px;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1427px) 
-{
-    
-}
-
-@media screen and (max-width: 1024px) 
-{
-    
-}
-
 /* footer */
 
 footer
@@ -618,9 +530,4 @@ footer ul
 footer li
 {
     margin-bottom: 1em;
-}
-
-@media screen and (max-width: 1024px) 
-{
-    
 }
