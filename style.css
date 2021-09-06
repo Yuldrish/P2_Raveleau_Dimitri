@@ -8,7 +8,6 @@
     max-width: 1440px;
     font-size: 1em;
     margin: auto;
-    margin-bottom: -10px;
 }
 
 /* header */
@@ -17,13 +16,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
-    padding: 0px 60px 0px 50px;
-}
-
-header > * 
-{
-    height: 100%;
+    position: relative;
 }
 
 #logo_reservia
@@ -33,7 +26,7 @@ header > *
     padding-top: 10px;
 }
 
-header ul
+#ancre
 {
     list-style-type: none;
     display: flex;
@@ -41,7 +34,13 @@ header ul
     padding-bottom: 17px;
 }
 
-header li 
+#ancre_int
+{
+    display: flex;
+    flex-direction: row;
+}
+
+header a 
 {
     display: flex;
     align-items: flex-end;
@@ -74,7 +73,7 @@ header a
 
 nav
 {
-    padding: 20px 50px 0px 50px;
+    padding: 20px 0px 0px 0px;
 }
 nav h1
 {
@@ -144,13 +143,12 @@ margin-bottom: -0.1em;
 {
     display: flex;
     column-gap: 2.5%;
-    height: 42px;
     font-size: 17px;
 }
 
 #filtre > *
 {
-    height: 100%;
+    height: 42px;
     font-weight: bold;
     display: flex;
     justify-content: baseline;
@@ -234,6 +232,7 @@ a, p
 {
     display: flex;
     justify-content: space-between;
+    column-gap: 3%;
 }
 
 /* section: hébergements */
@@ -242,9 +241,8 @@ a, p
 {
     background-color: #f2f2f2;
     border-radius: 20px 20px;
-    width: 820px;
     padding: 20px 30px;
-    margin: 30px 40px 0px 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -263,7 +261,6 @@ a, p
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    max-height: 480px;
 }
 
 .def_heb
@@ -331,9 +328,9 @@ a, p
 {
     background-color: #f2f2f2;
     border-radius: 20px 20px;
-    width: 420px;
+    width: 55%;
     height: 650px;
-    margin: 30px 50px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
 .titre_pop
@@ -405,7 +402,7 @@ a, p
 
 #activites h1
 {
-    margin: 60px 50px -20px 50px;
+    margin: 60px 0px -20px 0px;
 }
 
 #activiter_placement
@@ -413,12 +410,12 @@ a, p
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0px  30px;
+    column-gap: 2%;
 }
 
 #activites article
 {
-    margin: 40px 20px;
+    margin: 40px 0px;
     box-shadow: 0px 5px 5px #f2f2f2;
     background-color: white;
 }
@@ -513,12 +510,13 @@ a, p
 
 footer
 {
+    font-family: raleway;
     background-color: #f2f2f2;
-    padding: 35px 62px;
+    padding: 35px 95px;
     display: flex;
     justify-content: flex-start;
-    column-gap: 7.1em;
-    margin: 0px -10px 0px -10px;
+    column-gap: 8.2em;
+    margin: 0px -10px -1px -10px;
 }
 
 footer ul
