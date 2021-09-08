@@ -1,14 +1,7 @@
 @media screen and (max-device-width: 500px) {
-  @font-face {
-    font-family: raleway;
-    src: url(raleway/static/Raleway-Regular.ttf);
-  }
-  #bloc_page {
-    font-family: raleway;
-    font-size: 1em;
-  }
 
   /* header */
+  
   header {
     flex-direction: column;
   }
@@ -58,28 +51,12 @@
       border-top: white;
   }
 
-  header a {
-    display: flex;
-    align-items: flex-end;
-    padding: 0px 0px;
-  }
-
   .topline:hover {
     border-top: #0065fc solid 2px;
   }
 
-  header a {
-    text-decoration: none;
-    color: black;
-  }
-
   .topline a:hover {
     color: #0065fc;
-  }
-
-  #inscription {
-    color: #0065fc;
-    font-weight: bold;
   }
 
   /* nav */
@@ -87,121 +64,31 @@
   nav {
     margin: 0px 15px 0px 15px;
   }
-  nav h1 {
-    font-weight: bold;
-    font-size: 22px;
-    margin-bottom: -0.3em;
-  }
-
-  #p_de_h1nav {
-    margin-bottom: -0.1em;
-  }
-
-  #barre_recherche {
-    display: flex;
-    justify-content: baseline;
-    margin-bottom: 0.5em;
-  }
-
-  #barre_recherche > * {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
   #rechercher {
-    color: white;
-    background-color: #0065fc;
     width: 50px;
     border-radius: 10px 10px;
     margin-left: -10px;
-    font-weight: bold;
   }
 
   #filtre {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 2.5%;
-    font-size: 17px;
-  }
-
-  #filtre > * {
-    height: 42px;
-    font-weight: bold;
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
   }
 
   #filtres {
     width: 300px;
   }
 
-  .esp > * {
-    padding-right: 17px;
-    padding-left: 17px;
-  }
-
   .esp {
-    border: solid 2px #f2f2f2;
-    border-radius: 100px/100px;
     margin: 1.5% 0%;
-    overflow: hidden;
-  }
-
-  .esp i {
-    font-size: 18;
-    color: #0065fc;
-    background-color: #deebff;
-    border-radius: 100px/100px;
-    height: 45px;
-    width: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .esp:hover {
-    background-color: #f2f2f2;
-    border: solid 2px #0065fc;
-  }
-
-  #info {
-    display: flex;
-    align-items: baseline;
-    column-gap: 13px;
   }
 
   #info i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #0065fc;
-    border: solid 2px #f2f2f2;
-    border-radius: 100px/100px;
-    font-size: 12px;
-    height: 20px;
-    width: 20px;
+    width: 25px;
   }
 
   /* main */
-
-  .etoile {
-    color: #f2f2f2;
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
-  .etoile_pleine {
-    color: #0065fc;
-    letter-spacing: -0.12em;
-  }
-
-  a,
-  p {
-    text-decoration: none;
-    color: black;
-  }
 
   #hebergements_et_populaire {
     display: flex;
@@ -222,29 +109,16 @@
   }
 
   #hebergements h1 {
-    font-weight: bold;
-    font-size: 1.4em;
     margin-left: unset;
   }
 
-  #sous_section_heb {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-
   .def_heb {
-    background-color: white;
-    border-radius: 20px 20px;
     width: 100%;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 0px ;
-    box-shadow: 0px 0px 10px #c4c4c4;
   }
   .def_heb a
   {
@@ -254,46 +128,15 @@
   .image_heb {
     width: 97%;
     height: 114px;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    border-radius: 17px 17px 0px 0px;
-    margin: 5px 5px 0px 5px;
-  }
-
-  .image_heb img {
-    display: none;
-  }
-
-  .info_heb {
-    margin-left: 15px;
-    line-height: 0.5em;
-  }
-
-  .info_heb h2 {
-    font-size: 1em;
-    font-weight: bold;
-    color: black;
-  }
-
-  .info_heb p {
-    font-size: 0.85em;
-  }
-
-  .info_heb i {
-    font-size: 0.75em;
   }
 
   #afficher_plus {
-    color: black;
-    font-weight: bold;
     padding-left: unset;
   }
 
   /* section: populaire */
 
   #populaire {
-    background-color: #f2f2f2;
     border-radius: unset;
     margin: unset;
     width: 100%;
@@ -308,8 +151,6 @@
   }
 
   .def_pop {
-    background-color: white;
-    border-radius: 20px 20px;
     width: 100%;
     height: 145px;
     margin: unset;
@@ -318,37 +159,6 @@
   .image_pop {
     width: 125px;
     height: 135px;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    border-radius: 17px 0px 0px 17px;
-    margin: 5px 15px 5px 5px;
-    float: left;
-  }
-
-  .image_pop img {
-    display: none;
-  }
-
-  .info_pop {
-    margin: 15px 20px 15px 15px;
-    padding-top: 0.1px;
-  }
-
-  .info_pop h2 {
-    font-size: 1.05em;
-    font-weight: bold;
-    color: black;
-    margin-bottom: -0.3em;
-  }
-
-  .info_pop p {
-    font-size: 0.85em;
-    margin-bottom: 2.5em;
-  }
-
-  .info_pop i {
-    font-size: 0.75em;
   }
 
   /* section: activités */
@@ -358,8 +168,7 @@
   }
 
   #activiter_placement {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -378,35 +187,13 @@
     width: 100%;
   }
 
-  #activites h2 {
-    font-size: 1em;
-    font-weight: bold;
-    padding: 20px 0px 0px 20px;
-    margin-top: -5px;
-    border-radius: 0px 0px 20px 20px;
-    width: 278px;
-    height: 35px;
-  }
-
   /* footer */
 
   footer {
-    font-family: raleway;
-    background-color: #f2f2f2;
     padding: 35px 35px;
-    margin-bottom: -10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    column-gap: 7.1em;
   }
 
-  footer ul {
-    list-style-type: none;
-    margin-left: -40px;
-  }
-
-  footer li {
-    margin-bottom: 1em;
-  }
 }
