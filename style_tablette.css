@@ -1,131 +1,131 @@
-@media all and (min-device-width: 500px) and (max-device-width: 1280px) 
-{    
-    /* header */
+@media all and (min-device-width: 500px) and (max-device-width: 1280px) {
+  /* header */
 
-    /* nav */
-    
-      #filtre {
-        display: flex;
-        flex-wrap: wrap;
-      }
+  /* nav */
 
-      .esp {
-          margin-bottom: 10px;
-      }
-    
-    /* main */
+  nav {
+  }
 
-    #hebergements_et_populaire {
-        flex-direction: column-reverse;
-    }
+  #filtre {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    /* section: hébergements */
+  .esp {
+    margin-bottom: 10px;
+  }
 
-    #hebergements {
-        background-color: unset;
-        border-radius: unset;
-        padding: unset;
-        margin: 30px 20px 0px 20px;
-        display: flex;
-        flex-direction: column;
-      }
-    
-      #hebergements h1 {
-        margin-left: unset;
-      }
-    
-      .def_heb {
-        width: 100%;
-        height: 290px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 20px 0px ;
-      }
-      .def_heb a
-      {
-        width: 100%;
-      }
-    
-      .image_heb {
-        width: 100%;
-        height: 200px;
-        margin: unset;
-      }
-    
-      #afficher_plus {
-        padding-left: unset;
-      }    
+  /* main */
 
-    /* section: populaire */
+  #hebergements_et_populaire {
+    flex-direction: column-reverse;
+  }
 
-    #populaire {
-        border-radius: unset;
-        width: 100%;
-      }
-    
-      .titre_pop {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        margin: 0px 35px 0px 25px;
-      }
-    
-      .def_pop {
-        width: 95%;
-        height: 145px;
-        margin: 0px 20px;
-      }
-    
-      .image_pop {
-        width: 50%;
-        height: 135px;
-      }
-    
-    /* section: activités */
+  /* section: hébergements */
 
-    #activites {
-        margin-bottom: 30px;
-      }
+  #hebergements {
+    background-color: unset;
+    border-radius: unset;
+    padding: unset;
+    margin: 30px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
 
-     #activites h1 {
-        margin: 60px 0px 20px 20px;
-      }
-    
-      #activiter_placement {
-        margin: 0px 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        row-gap: 30px;
-      }
+  #hebergements h1 {
+    margin-left: unset;
+  }
 
-      .colonne_activiter {
-          display: flex;
-          flex-direction: column;
-          row-gap: 30px;
-      }
-    
-      #activites article {
-        height: 290px;
-        width: 100%;
-        margin: unset;
-        display: flex;
-        flex-direction: column;
-        box-shadow: 0px 5px 5px #f2f2f2;
-        background-color: white;
-     }
-    
-      #activites img {
-        height: 235px;
-        width: 100%;
-      }
-    
-    /* footer */
+  .def_heb {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px;
+  }
+  .def_heb a {
+    width: 100%;
+  }
 
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .image_heb {
+    width: 100%;
+    height: 200px;
+    margin: unset;
+  }
 
+  #afficher_plus {
+    padding-left: unset;
+  }
+
+  /* section: populaire */
+
+  #populaire {
+    border-radius: unset;
+    width: 100%;
+  }
+
+  .titre_pop {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0px 35px 0px 25px;
+  }
+
+  .def_pop {
+    width: 95%;
+    height: 145px;
+    margin: 0px 20px;
+  }
+
+  .image_pop {
+    width: 50%;
+    height: 135px;
+  }
+
+  /* section: activités */
+
+  #activites {
+    margin-bottom: 30px;
+  }
+
+  #activites h1 {
+    margin: 60px 0px 20px 20px;
+  }
+
+  #activiter_placement {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+  }
+
+  .colonne_activiter {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  #activites article {
+    height: 290px;
+    width: 100%;
+    margin: unset;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 5px #f2f2f2;
+    background-color: white;
+  }
+
+  #activites img {
+    height: 235px;
+    width: 100%;
+  }
+
+  /* footer */
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
