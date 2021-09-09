@@ -1,9 +1,13 @@
 @media screen and (max-device-width: 500px) {
 
   /* header */
-  
+
   header {
     flex-direction: column;
+  }
+
+  header a {
+      height: unset;
   }
 
   #logo_reservia {
@@ -31,28 +35,27 @@
   }
 
   #ancre_int {
-      height: 30px;
+      height: 50px;
       width: 100%;
       justify-content: center;
-      column-gap: 5px;
   }
 
   #ancre_int > * {
       width: 50%;
       justify-content: center;
+  }
+
+  .topline {
+      height: 100%;
+      display: flex;
+      align-items: center;
       border-bottom: solid #f2f2f2 2px;
-      margin: 10% 0px 2% 0px;
-      padding-bottom: 2%;
   }
 
   .topline:hover
   {
       border-bottom: #0065fc solid 2px;
       border-top: white;
-  }
-
-  .topline:hover {
-    border-top: #0065fc solid 2px;
   }
 
   .topline a:hover {
@@ -71,6 +74,15 @@
     margin-left: -10px;
   }
 
+  .text_none {
+      display: none;
+  }
+
+  #rechercher i {
+      display: block;
+      color: white;
+  }
+  
   #filtre {
     display: flex;
     flex-wrap: wrap;
@@ -146,14 +158,13 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px 20px
   }
 
   .def_pop {
-    width: 100%;
+    width: 90%;
     height: 145px;
-    margin: unset;
+    margin: 0px 20px;
   }
 
   .image_pop {
@@ -180,7 +191,7 @@
     margin-bottom: 10%;
     box-shadow: 0px 5px 5px #f2f2f2;
     background-color: white;
-}
+ }
 
   #activites img {
     height: 135px;
