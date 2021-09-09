@@ -1,4 +1,4 @@
-@media all and (min-device-width: 500px) and (max-device-width: 1280px) {
+@media all and (min-width: 500px) and (max-width: 1280px) {
   /* header */
 
   /* nav */
