@@ -78,7 +78,7 @@ nav h1 {
 
 #barre_recherche {
   display: flex;
-  justify-content: baseline;
+  justify-content: flex-start;
   margin-bottom: 0.5em;
 }
 
@@ -136,7 +136,7 @@ nav h1 {
   height: 42px;
   font-weight: bold;
   display: flex;
-  justify-content: baseline;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -152,7 +152,7 @@ nav h1 {
 }
 
 .esp i {
-  font-size: 18;
+  font-size: 18px;
   color: #0065fc;
   background-color: #deebff;
   border-radius: 100px/100px;
