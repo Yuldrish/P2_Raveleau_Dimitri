@@ -15,7 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-top: 0px;
+  margin-top: -8px;
 }
 
 #logo_reservia {
