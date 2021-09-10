@@ -3,7 +3,7 @@
   src: url(raleway/static/Raleway-Regular.ttf);
 }
 #bloc_page {
-  font-family: "raleway";
+  font-family: "raleway", sans-serif;
   max-width: 1440px;
   font-size: 1em;
   margin: auto;
