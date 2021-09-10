@@ -1,9 +1,9 @@
 @font-face {
-  font-family: raleway;
+  font-family: "raleway";
   src: url(raleway/static/Raleway-Regular.ttf);
 }
 #bloc_page {
-  font-family: raleway;
+  font-family: "raleway";
   max-width: 1440px;
   font-size: 1em;
   margin: auto;
@@ -455,7 +455,7 @@ p {
 /* footer */
 
 footer {
-  font-family: raleway;
+  font-family: "raleway", sans-serif;
   background-color: #f2f2f2;
   padding: 35px 65px;
   display: flex;
