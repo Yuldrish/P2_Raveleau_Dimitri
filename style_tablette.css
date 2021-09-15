@@ -127,12 +127,12 @@
   }
 
   #activiter_placement {
-    margin: 0px 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     row-gap: 30px;
+    margin: 0px 35px;
   }
 
   .colonne_activiter {
@@ -142,7 +142,6 @@
   }
 
   #activites article {
-    width: 48%;
     min-width: 300px;
     margin: unset;
     display: flex;
