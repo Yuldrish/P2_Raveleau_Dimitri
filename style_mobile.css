@@ -67,7 +67,7 @@
 
   /* nav */
 
-  nav {
+  .titre_et_nav {
     margin: 0px 15px 0px 15px;
   }
 
@@ -126,7 +126,7 @@
     flex-direction: column;
   }
 
-  #hebergements h1 {
+  #hebergements h2 {
     margin-left: unset;
   }
 
@@ -142,7 +142,7 @@
     width: 100%;
   }
 
-  .image_heb {
+  .image_heb img {
     width: 97%;
     height: 114px;
   }
@@ -172,14 +172,14 @@
     margin: 0px 20px;
   }
 
-  .image_pop {
+  .image_pop img {
     width: 125px;
     height: 135px;
   }
 
   /* section: activités */
 
-  #activites h1 {
+  #activites h2 {
     margin: 60px 0px -20px 20px;
   }
 

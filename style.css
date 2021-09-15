@@ -45,6 +45,8 @@ header a {
 
 .topline:hover {
   border-top: #0065fc solid 2px;
+  color: #0065fc;
+
 }
 
 header a {
@@ -52,27 +54,24 @@ header a {
   color: black;
 }
 
-.topline a:hover {
-  color: #0065fc;
-}
-
 #inscription {
   color: #0065fc;
   font-weight: bold;
 }
 
-/* nav */
+/* titre + nav */
 
-nav {
+.titre_et_nav {
   padding: 20px 0px 0px 0px;
 }
-nav h1 {
+
+.titre_et_nav h1 {
   font-weight: bold;
   font-size: 22px;
   margin-bottom: -0.3em;
 }
 
-#p_de_h1nav {
+#p_de_titre {
   margin-bottom: -0.1em;
 }
 
@@ -145,8 +144,8 @@ nav h1 {
 }
 
 .esp > * {
-  padding-right: 17px;
-  padding-left: 17px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .esp {
@@ -212,7 +211,11 @@ p {
 #hebergements_et_populaire {
   display: flex;
   justify-content: space-between;
-  column-gap: 3%;
+  column-gap: 2.5%;
+}
+
+.image_heb, .image_pop {
+  margin: unset;
 }
 
 /* section: hébergements */
@@ -220,13 +223,13 @@ p {
 #hebergements {
   background-color: #f2f2f2;
   border-radius: 20px 20px;
-  padding: 20px 30px;
+  padding: 20px 25px;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
 
-#hebergements h1 {
+#hebergements h2 {
   font-weight: bold;
   font-size: 1.4em;
   margin-left: 15px;
@@ -243,35 +246,31 @@ p {
 .def_heb {
   background-color: white;
   border-radius: 20px 20px;
-  width: 245px;
+  width: 225px;
   height: 200px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   margin: 20px 0px 20px 15px;
   box-shadow: 0px 0px 10px #c4c4c4;
 }
 
-.image_heb {
-  width: 235px;
-  height: 114px;
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-  border-radius: 17px 17px 0px 0px;
-  margin: 5px 5px 5px 5px;
-}
-
 .image_heb img {
-  display: none;
+  width: 215px;
+  height: 114px;
+  object-fit: cover; 
+  display: flex; 
+  border-radius: 17px 17px 0px 0px;
+  margin: 5px 5px 0px 5px;
 }
 
 .info_heb {
-  margin-left: 15px;
+  max-width: 100%;
+  padding-left: 15px;
   line-height: 0.5em;
+  border-radius: 0px 0px 20px 20px;
 }
 
-.info_heb h2 {
+.info_heb h3 {
   font-size: 1em;
   font-weight: bold;
   color: black;
@@ -296,7 +295,7 @@ p {
 #populaire {
   background-color: #f2f2f2;
   border-radius: 20px 20px;
-  width: 55%;
+  width: 50%;
   height: 650px;
   margin: 30px 0px 0px 0px;
 }
@@ -320,19 +319,13 @@ p {
   margin: 0px 30px 0px 40px;
 }
 
-.image_pop {
+.image_pop img {
   width: 125px;
   height: 135px;
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
+  object-fit: cover;
   border-radius: 17px 0px 0px 17px;
   margin: 5px 15px 5px 5px;
   float: left;
-}
-
-.image_pop img {
-  display: none;
 }
 
 .info_pop {
@@ -340,7 +333,7 @@ p {
   padding-top: 0.1px;
 }
 
-.info_pop h2 {
+.info_pop h3 {
   font-size: 1.05em;
   font-weight: bold;
   color: black;
@@ -358,7 +351,7 @@ p {
 
 /* section: activités */
 
-#activites h1 {
+#activites h2 {
   margin: 60px 0px 0px 0px;
 }
 
@@ -384,72 +377,78 @@ p {
 
 .premiere_image,
 .quatrieme_image {
-  width: 300px;
+  width: 100%;
   height: 390px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
 #deuxieme {
-  width: 300px;
+  width: 100%;  
+  min-width: 300px;
   height: 235px;
   border-radius: 20px;
 }
 
 .deuxieme_image {
-  width: 300px;
+  width: 100%;
   height: 180px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
 #troisieme {
-  width: 300px;
+  width: 100%;
+  min-width: 300px;
   height: 165px;
   border-radius: 20px;
 }
 
 .troisieme_image {
-  width: 300px;
+  width: 100%;
   height: 110px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
 #cinquieme {
-  width: 300px;
+  width: 100%;
+  min-width: 300px;
   height: 195px;
   border-radius: 20px;
 }
 
 .cinquieme_image {
-  width: 300px;
+  width: 100%;
   height: 140px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
 #sixieme {
-  width: 300px;
+  width: 100%;
+  min-width: 300px;
   height: 210px;
   border-radius: 20px;
 }
 
 .sixieme_image {
-  width: 300px;
+  width: 100%;
   height: 155px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
-#activites h2 {
+#activites h3 {
   font-size: 1em;
   font-weight: bold;
-  padding: 20px 0px 0px 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
   margin-top: -5px;
   border-radius: 0px 0px 20px 20px;
-  width: 278px;
-  height: 35px;
+  max-width: 99%;
+  height:55px;
 }
 
 /* footer */
